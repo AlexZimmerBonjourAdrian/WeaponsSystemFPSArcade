@@ -76,6 +76,8 @@
     <Compile Include="Assets\CPlayer.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\CMouseLook.cs" />
+    <Compile Include="Assets\CGun.cs" />
+    <Compile Include="Assets\CPlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
