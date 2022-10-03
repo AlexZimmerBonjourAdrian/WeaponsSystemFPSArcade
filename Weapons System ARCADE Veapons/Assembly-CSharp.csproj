@@ -56,29 +56,29 @@
     <Analyzer Include="E:\VisualStudio\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CSway.cs" />
+    <Compile Include="Assets\Script\CSway.cs" />
     <Compile Include="Assets\Shared\Scripts\ProximityActivate.cs" />
-    <Compile Include="Assets\CTargetRotation.cs" />
-    <Compile Include="Assets\CGunSystem.cs" />
+    <Compile Include="Assets\Script\CTargetRotation.cs" />
+    <Compile Include="Assets\Script\CGunSystem.cs" />
     <Compile Include="Assets\Shared\Ramps\Runtime\RampAsset.cs" />
-    <Compile Include="Assets\CMotion.cs" />
+    <Compile Include="Assets\Script\CMotion.cs" />
     <Compile Include="Assets\Shared\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\CSwayAlternative.cs" />
-    <Compile Include="Assets\CHeadBobController.cs" />
-    <Compile Include="Assets\CAdvanceweaponRecoil.cs" />
-    <Compile Include="Assets\CCAdvancedCamRecoil.cs" />
-    <Compile Include="Assets\CPositionFollower.cs" />
+    <Compile Include="Assets\Script\CSwayAlternative.cs" />
+    <Compile Include="Assets\Script\CHeadBobController.cs" />
+    <Compile Include="Assets\Script\CAdvanceweaponRecoil.cs" />
+    <Compile Include="Assets\Script\CCAdvancedCamRecoil.cs" />
+    <Compile Include="Assets\Script\CPositionFollower.cs" />
     <Compile Include="Assets\Shared\Scripts\SimpleCharacterMotor.cs" />
-    <Compile Include="Assets\CViewBobbing.cs" />
+    <Compile Include="Assets\Script\CRecoil.cs" />
+    <Compile Include="Assets\Script\CViewBobbing.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\CCamerasShake.cs" />
+    <Compile Include="Assets\Script\CCamerasShake.cs" />
     <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />
-    <Compile Include="Assets\CPlayer.cs" />
-    <Compile Include="Assets\CPlayerMovement.cs" />
-    <Compile Include="Assets\CGun.cs" />
+    <Compile Include="Assets\Script\CPlayer.cs" />
+    <Compile Include="Assets\Script\CPlayerMovement.cs" />
+    <Compile Include="Assets\Script\CGun.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
-    <Compile Include="Assets\CMouseLook.cs" />
-    <Compile Include="Assets\CRecoil.cs" />
+    <Compile Include="Assets\Script\CMouseLook.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
