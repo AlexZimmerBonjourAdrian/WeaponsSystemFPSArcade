@@ -14,7 +14,7 @@ public class CHeadBobController : MonoBehaviour
 
     private float _toggleSpeed = 3.0f;
     private Vector3 _startPos;
-    private CharacterController _controller;
+    [SerializeField]private CharacterController _controller;
     // Start is called before the first frame update
 
     private void Start()

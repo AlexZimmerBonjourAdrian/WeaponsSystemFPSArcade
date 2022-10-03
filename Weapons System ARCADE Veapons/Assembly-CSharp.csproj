@@ -74,10 +74,11 @@
     <Compile Include="Assets\CCamerasShake.cs" />
     <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />
     <Compile Include="Assets\CPlayer.cs" />
+    <Compile Include="Assets\CPlayerMovement.cs" />
+    <Compile Include="Assets\CGun.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\CMouseLook.cs" />
-    <Compile Include="Assets\CGun.cs" />
-    <Compile Include="Assets\CPlayerMovement.cs" />
+    <Compile Include="Assets\CRecoil.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
