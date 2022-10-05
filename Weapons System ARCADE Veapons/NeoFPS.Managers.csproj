@@ -56,8 +56,8 @@
     <Analyzer Include="E:\VisualStudio\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NeoFPS\Core\Utilities\Shared\NeoFpsManager.cs" />
     <Compile Include="Assets\NeoFPS\Core\Utilities\Shared\NeoFpsMenuPriorities.cs" />
+    <Compile Include="Assets\NeoFPS\Core\Utilities\Shared\NeoFpsManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NeoFPS\Core\Utilities\Shared\NeoFpsShared.asmdef" />

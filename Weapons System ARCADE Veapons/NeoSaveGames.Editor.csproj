@@ -56,19 +56,19 @@
     <Analyzer Include="E:\VisualStudio\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\Serialization\NeoSerializationEditorUtilities.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\SaveModePropertyDrawer.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\Serialization\NeoSerializedGameObjectEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\AutoSaveBehaviourEditor.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\SaveInfoBaseEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\SceneManagement\NeoSceneManagerEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\SceneManagement\NeoSceneSwitcherEditor.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\SaveGameInspector.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\SaveGameManagerEditor.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\Serialization\NeoSerializedGameObjectOverrideEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\SceneSaveInfoEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\Serialization\NeoSerializedGameObjectProcessor.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\Serialization\NeoSerializedSceneEditor.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\Serialization\NeoSerializationEditorUtilities.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\SaveModePropertyDrawer.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\SaveInfoBaseEditor.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\SaveGameInspector.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\SaveGameManagerEditor.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\Serialization\NeoSerializedGameObjectOverrideEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Editor\SaveGamePrefabCollectionEditor.cs" />
   </ItemGroup>
   <ItemGroup>

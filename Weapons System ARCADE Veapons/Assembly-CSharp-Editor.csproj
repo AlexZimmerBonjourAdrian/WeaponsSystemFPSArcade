@@ -798,11 +798,11 @@
     <Reference Include="Unity.ProGrids.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Services.Core">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
@@ -846,10 +846,6 @@
       <Project>{0E2D4E1A-0C6B-875B-C280-53814EE9D4DA}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="NeoSaveGames.csproj">
-      <Project>{AC08AF4F-C474-984C-3284-FE9F3A3BAAF2}</Project>
-      <Name>NeoSaveGames</Name>
-    </ProjectReference>
     <ProjectReference Include="NeoFPS.Managers.csproj">
       <Project>{BB74EB94-708A-4DE2-4941-92F96EDC7880}</Project>
       <Name>NeoFPS.Managers</Name>
@@ -861,6 +857,10 @@
     <ProjectReference Include="NeoSaveGames.Editor.csproj">
       <Project>{AB17DDFB-042F-7628-4668-FEE51E844838}</Project>
       <Name>NeoSaveGames.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NeoSaveGames.csproj">
+      <Project>{AC08AF4F-C474-984C-3284-FE9F3A3BAAF2}</Project>
+      <Name>NeoSaveGames</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
