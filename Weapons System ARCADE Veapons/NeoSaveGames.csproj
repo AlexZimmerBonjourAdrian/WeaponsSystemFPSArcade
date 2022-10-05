@@ -56,32 +56,15 @@
     <Analyzer Include="E:\VisualStudio\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\SceneManagement\NeoSceneSwitcher.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\SaveMode.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\SaveUIPopup.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\BinaryDeserializer.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\SceneSaveInfo.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializedObjectFactory.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializationKey.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\INeoSerializableComponent.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializedScene.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\Formatters\RigidbodyFormatter.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\INeoSerializedGameObjectLimiter.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializedGameObjectContainerBase.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializationFormatters.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\BinarySerializer.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\SavePathRoot.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializedGameObjectChildContainer.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\INeoSerializableObject.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializationFilter.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializedGameObject.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\SerializationContext.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\SaveGamePrefabCollection.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\AutoSaveBehaviour.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\SafeSerializer.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\PropertyType.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\Formatters\AnimatorFormatter.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\INeoDeserializer.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\SaveFileMetaData.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\SaveGameManager.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\INeoSerializableAsset.cs" />
@@ -91,12 +74,29 @@
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\SafeDeserializer.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\SceneManagement\NeoSceneManager.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializedSceneObjectContainer.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\INeoSerializedGameObjectContainer.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\PropertyFlags.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializationFormatter.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\SceneManagement\NeoSceneSwitcher.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\SaveMode.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\BinaryDeserializer.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\SceneSaveInfo.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializedObjectFactory.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\INeoSerializableComponent.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\Formatters\RigidbodyFormatter.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\INeoSerializedGameObjectLimiter.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializedGameObjectContainerBase.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializationFormatters.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializedGameObjectChildContainer.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\INeoSerializableObject.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializationFilter.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\SaveGamePrefabCollection.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\SafeSerializer.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\PropertyType.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\INeoDeserializer.cs" />
+    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\INeoSerializedGameObjectContainer.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializationUtilities.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\SaveGameType.cs" />
     <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\SafeSerializationIntermediates.cs" />
-    <Compile Include="Assets\NeoFPS\Core\NeoSaveGames\Serialization\NeoSerializationFormatter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NeoFPS\Core\NeoSaveGames\NeoSaveGames.asmdef" />
