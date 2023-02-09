@@ -56,426 +56,1211 @@
     <Analyzer Include="E:\VisualStudio\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\ItemProperty.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Player Camera\cameraAxisComponentsInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\playerPickupIconManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\enemyHackPanel.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryBankUISystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Objectives Mission System\objectiveMenuIconElement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistanceBlendshapesListBySaveSlotInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\freeClimbZoneSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_WeaponThrower.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Info\EquipmentModelInfo.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Demo\vp_DoomsDayDevice.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\moveCameraToDevice.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Panel Info System\infoPanelOnScreenSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Combat\vp_Shooter.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\saveStatsInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\simpleWeaponSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Head Track\headTrackTarget.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\Grappling Hook System\grapplingHookTarget.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_GlobalEvent.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Generic Model Controller\GKCCharacterController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\genericRagdollBuilder.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Demo\damageCharacterOnCollision.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Captures\remoteEventOnCameraCaptureSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Condition System\GKCMeleeConditionSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Demo\solarSystem.cs" />
     <Compile Include="Assets\UFPS\VR\Scripts\vp_VRTeleporter.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Custom AI Behavior\AIAbilitiesSystemBrain.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleLamp.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\oxygenOnInventory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\shipInterfaceInfo.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Motion\vp_Billboard.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_Message.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\armorSurfaceSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Map\quickTravelStationSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\pickUpIconInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Climb System\ledgeZoneSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\_Core\ItemDatabase.cs" />
     <Compile Include="Assets\Script\Script Alex\CSway.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Map\mapSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\mouseOperations.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Demo_Scene_Components\Scripts\ExplosiveBarrelScript.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Menu\sceneSlot.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Event System\eventParameters.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Map\mapIconType.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\armorClothPieceTemplate.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\languageElementDeviceChecker.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponAmmoUsingPlayerStat.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Custom AI Behavior\weaponsAIBehavior.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryObject.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Demo\vp_FPSDemo2.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\ReorderableLists.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Puzzles\pianoSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\powersAndAbilitiesSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Pooling\ObjectPooling\ObjectPool.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Foot Step\footStep.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Powerups\vp_HealthPowerup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\particleTriggerDetection.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\Radio\radioSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Animator IK\OnAnimatorIKComponent.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Skills System\playerSkillsUISystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\staminaSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Action System\characterActionSystemChecker.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\inputPanelUISystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\particleCollisionDetection.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Foot Step\noiseReactionData.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Combat\vp_DamageInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\explosiveBarrel.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\ignoreCollisionSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\padlockSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_FadingDecal.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\GameManager.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\Inventory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\damageHitReactionSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Condition System\GKCVendorConditionSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\healthPickup.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\TriggerHitbox.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\grabObjectsStrengthPickup.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\Tweening\Easer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\New Weapon Behaviors\flashlight.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\wallRunningZoneSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponSlotElement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\applyPresetSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\coinPocketSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\IEquipmentComponent.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Camera\_Core\RootHeightHandler.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleSoundSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeWeaponRangeAttacksSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\SplineWalker.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\statsSettingsTemplate.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponObjectInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\playerComponentsManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\AIHidePositionsManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\vehicleController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\setRigidbodyStateSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_Utility.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\SimpleFPSCounter.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Info\ProjectileWeaponVFXInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Gravity\setGravity.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_WaypointGizmo.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_TargetEvent.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\inventoryWeightBagPickup.cs" />
     <Compile Include="Assets\Script\Script Alex\CTargetRotation.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\setObjectScaleSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Attachments\attachmentSlotInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Override System\overrideInputManager.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\ItemContainer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Puzzles\puzzleSystemPlayerManagement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\laser.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Character Builder\ragdollBuilder.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\pickUpManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Camera Effect\pixelCameraEffect.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\ComponentSystem\vp_State.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\Interaction\vp_Grab.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\ItemPropertyInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\SurfaceInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\ItemSpawner.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Custom AI Behavior\AIFireWeaponsSystemBrain.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryCharacterCustomizationSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Demo\simpleTurretRobot.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeWeaponTransformData.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\saveMissionsInfo.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Weapon_Scripts\AutomaticGunScriptLPFP.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Demo\openStructure.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\actionInputDelaySystem.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Bullet\BulletScript.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Point And Click\pointAndClickElement.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\FootstepManager\vp_FootstepManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\fullArmorClothTemplate.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\swimSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\New Weapon Behaviors\weaponLaser.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Slots\UI_WheelSlot.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Grab Objects\objectToPlaceSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistancePlayerOptionsListBySaveSlotInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Player\PlayerSpawnPoints.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Equipment\UI_ItemWheel.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Attachments\attachmentInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistanceWeaponListBySaveSlotInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\ragdollActivator.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Spring\UI_SpringForce.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\getObjectFromInventorySystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\statType.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\magicSpellActionSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GameUtils\OnCollisionBehaviour.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\StartupInventory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vendor System\vendorObjectSlotPanel.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\rollOnLandingSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Objectives Mission System\objectiveStationUISystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\hologramDoor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\playerOptionsEditorSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPPlayerDamageHandler.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeAttackSurfaceInfo.cs" />
     <Compile Include="Assets\MiProject\Shared\Ramps\Runtime\RampAsset.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\templateAbilitySystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\vehicleLaser.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeCombatAttackStartState.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\meleeShieldOnInventory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Ladder System\playerLadderSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\slideZoneSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Grab Objects\grabObjectParent.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPWeaponHandler.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Compass.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\playerInputManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Documentation\Integrations\UMA\UMA\UMAIgnoreTransformAndChilds.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\Radio\songsManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\hoverBoardAnimationSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\vehicleHUDManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\Grappling Hook System\grapplingHookSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\localizationFileLoader.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Camera\Physics\CameraShakes.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleActionButton.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\Attributes\vp_InventoryItemsAttribute.cs" />
     <Compile Include="Assets\Script\Script Alex\CMotion.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\Equipment\UI_HealsInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\climbRopeSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Combat\vp_DamageHandler.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\simpleThrowFireWaveAbility.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\savePlayerOptionsInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\New Weapon Behaviors\sliceObject.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\ChangeItemSkin.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\movableDoor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\AIPatrolSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Captures\captureSlot.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Custom AI Behavior\powersAIBehavior.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Components\EntityComponent.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\LootContainer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\jetpackFuelOnInventory.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\WeaponCorrector.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\Istat.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\manualDetonationMineSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\externalControllerBehaviorManager.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\SceneField.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\rotatoryGear.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Objectives Mission System\playerScreenObjectivesSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Skills System\playerSkillsSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Character Builder\characterSettingsTemplate.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\weaponInventoryPrefabCreationSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\bowSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\LayerAttribute.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\playerAbilitiesUISystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Help\vp_UFPSHelp.cs" />
     <Compile Include="Assets\MiProject\Shared\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\New Weapon Behaviors\flamethrowerWeapon.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Pooling System\GKC_PoolingSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Powerups\vp_StatePowerup.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_TimeUtility.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Event System\remoteEventSearcher.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Animator IK\IKFootSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Generic Model Controller\spiderCharacterController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\applyEffectOnArea.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\headExplodeExample.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Custom AI Behavior\AI Behavior Info.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Camera\Physics\CameraPhysicsHandler.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\sleepingStateIconSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Combat\vp_Bullet.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\New Powers Behaviors\useDevicesAtDistancePower.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\Grappling Hook System\grapplingHookEffect.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\doorSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Menu\ingameMenuPanel.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryMenuIconElement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\powersListManager.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\MultilineCustom.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryWeightManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\rotatingPlatform.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\walkOnBalanceSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Pooling\ObjectPooling\PoolingManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\saveDialogInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\fallingPlatform.cs" />
     <Compile Include="Assets\Script\Script Alex\CSwayAlternative.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_PlayerInventory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\ammoOnInventory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Tutorial System\tutorialUISystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\saveElementsOnSceneInfo.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\ItemTypes\vp_UnitType.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleSetQuaternionRotation.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Hide System\hideCharacterFixedPlaceSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Panel Info System\playerInfoPanelOnScreenSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Climb System\climbLedgeSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\Slice System\cuttingModeSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\enableOrDisableObjectOnDistanceManager.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Help\vp_Help.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Camera Effect\solidCameraEffect.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\destroyGameObject.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\addForceToObjectSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Reorderable.cs" />
     <Compile Include="Assets\Script\Script Alex\CHeadBobController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\healthElementInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\Scanner System\scannerSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Equipment\UI_Hotbar.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Puzzles\placeObjectSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Scripts\CTI_Utils.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\ReadOnly.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\Slice System\runtimeShatterRecursive.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Map\mapObjectInformation.cs" />
     <Compile Include="Assets\Script\Script Alex\CAdvanceweaponRecoil.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\Interaction\vp_Switch.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\Grappling Hook System\grapplingHookTargetsSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\HealsManager.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_SeparatorAttribute.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_MaterialUtility.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\New Weapon Behaviors\plasmaCutterSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\ItemPropertyDefinition.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\experiencePickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\characterCustomizationBlendshapesHelper.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\editControlPosition.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\playerStatsSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Faction\factionSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\healthOnInventory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\States\characterStateAffectedInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\generalPickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\powerPickup.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\ComponentSystem\vp_StateManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Elements On Scene\elementOnSceneInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\Equipment\UI_WeaponInfo.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_ItemTypeAttribute.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\New Powers Behaviors\changeGlobalGravityPower.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Entity\EntityDeathHandler.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Motion\vp_Spin.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Third_Person_Character\Components\Plane_Demo_Scene_Components\Scripts\BlinkingLightLPFP.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\pickUpIcon.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistanceTravelStationListBySaveSlotInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\Equipment\UI_Crosshair.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\_Core\UI_ScreenFader.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Map\mapTileBuilder.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Generic Model Controller\customCharacterControllerSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\UI_PlayerVitals.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\oxygenSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Map\addMapObjectInformation.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\WaterBarrel.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Singleton.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_Input.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\Projectile.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\healthBarManagementSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\slowObject.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\sphereController.cs" />
     <Compile Include="Assets\Script\Script Alex\CCAdvancedCamRecoil.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\zipline.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GeneralDataUtils\ColorUtils.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\SubClasses\GunSettings.cs" />
     <Compile Include="Assets\Script\Script Alex\CPositionFollower.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\savePlayerBlendshapesInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\skidsManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponPartstToRemoveOnPickupCreation.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Event System\remoteAnimatorEventTriggerSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\playerHealthBarManagementSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Demo\vp_FPSDemo1.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Spring\UI_Spring.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\GUI\vp_PainHUD.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Action System\activateActionOnCharactersOnScene.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Cutscene\pauseOrResumePlayerControllerAndCameraSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\replaceMaterialSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\friendListElement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Player Camera\cameraControllerManager.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Weapon_Scripts\GrenadeLauncherScriptLPFP.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\languageCheckerUIElement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\weaponAttachmentInventoryPrefabCreationSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_Shell.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Condition System\GKCConditionSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Objectives Mission System\objectiveManager.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\ItemSlot.cs" />
     <Compile Include="Assets\MiProject\Shared\Scripts\SimpleCharacterMotor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\enableOrDisableObjectsOnDistanceSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\armorClothPickup.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Mecanim\PlaySoundScript.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\EnumExtensions.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Turret\enemyLaser.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\missionLocalizationManager.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Interaction\Interactables\ItemPickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\stopParticlesAtStart.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_ItemIDAttribute.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\climbRopeTriggerMatchSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\FPArmsHandler.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\inputActionManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Level Manager\travelStationSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_ItemAmountAttribute.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\simpleWaypointSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\ItemCategory.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Weapon_Scripts\RocketLauncherScriptLPFP.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Casings_&amp;_Projectiles\GrenadeScript.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponAnimatorSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventorySlotOptionsButtons.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\mapPickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\pathInfoValues.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\AssetSingleton.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\AINavMesh.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Info\ProjectileWeaponRecoilInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\AI\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Map\objectiveIconInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\editButtonInput.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\playerInputPanelSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\ShowIf.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\languageElementChecker.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\DemoInstructions.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Combat\vp_Regenerator.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\Extensions\Extensions.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\turretController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\States\characterPropertiesSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_CapsuleController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\missionLocalizationManagerEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\WorldManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Attachments\laserDotOnScreenSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\characterCustomizationManager.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\Interaction\vp_ItemGrab.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Weapon_Scripts\BoltActionSniperScriptLPFP.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\getInventoryObjectSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\meleeShieldInventoryPrefabCreationSystem.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Weapon_Scripts\PumpShotgunScriptLPFP.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Dialog System\dialogManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Map\mapCreator.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\refractionCube.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryBankSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Projectiles\arrowProjectile.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\crate.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\staminaPickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\showMessageOnHUDSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Grab Objects\grabObjectProperties.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vendor System\vendorCategorySlotPanel.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\Attributes\vp_InventorySpaceAttribute.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Demo_Scene_Components\Scripts\LightMovementScript.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\examineObjectSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_Event.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryMenuPanelsSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Level Manager\travelStationPanelInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Info\CompassInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Spring\RecoilForce.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\GUI\vp_SimpleCrosshair.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Custom AI Behavior\meleeAIBehavior.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\SubClasses\CartridgeObject.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponBuilder.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\flyingTurretSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\SurfaceIdentity.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Custom AI Behavior\abilitiesAIBehavior.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\pickupType.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\elevatorSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Condition System\GKCCurrencyConditionSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\addPatrolSystemToAI.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\onEnableCheckSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Handlers\Entity.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Combat\vp_Explosion.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Generic Model Controller\AIMountManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vendor System\vendorSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\characterDamageReceiver.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\inventoryLocalizationManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Menu\homeMenu.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\AIWayPointPatrol.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\paragliderSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\ItemInfo.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_BodyAnimator.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Slots\UI_SlotGroup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Demo\clock.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\pressurePlate.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\featuresManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\hoverBoardController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Event System\eventTriggerSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Player Camera\headBob.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\_Core\UserInterfaceBehaviour.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\editInputPanelInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeWeaponRangeAttacksManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\destroyableObject.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\computerDevice.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistanceDialogContentListBySaveSlotInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\checkIfCharacterUsingWeaponsToChangeMode.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\AIHealtSliderInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\playerInventoryCategoriesListManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Menu\preventClickDrag.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Condition System\GKCConditionInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\projectileImpactSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\EffectAudio.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\fadeObject.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Effects\SurfaceSystem\vp_SurfaceEffect.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\ProjectileWeapon.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPWeaponMeleeAttack.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\pickUpObject.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\ComponentSystem\vp_ComponentPreset.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Clamp.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\saveVendorInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\saveInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Animator IK\IKSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Mobile\touchButtonListener.cs" />
     <Compile Include="Assets\MiProject\Shared\Scripts\AdjustTimeScale.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Objectives Mission System\screenObjectivesSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\mechanismPart.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryCaptureManager.cs" />
     <Compile Include="Assets\Script\Script Alex\CPlayer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Decal\decalTypeInformation.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Misc\IdGenerator.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\FPSController\FpsControllerLPFP.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\EquipmentSelection.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\showPlayerInputValues.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Skills System\skillSlotPanelInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Enumerations.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\New Powers Behaviors\changeObjectsPositionPower.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\removeGravityFromCharacterSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Demo\setLaserRefractions.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\powerSlotElement.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Level\vp_KillZone.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Info\UnarmedInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\bowHolderSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\interactionObjectMessage.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Generic Model Controller\customCharacterControllerManager.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPWeaponReloader.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Ladder System\ladderSystem.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Third_Person_Character\Components\Plane_Demo_Scene_Components\Scripts\PlaneDoorLightsLPFP.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Dialog System\externalDialogTriggerSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\vehicleWeaponSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\SimpleMinMaxAttribute.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Puzzles\pressObjectsInOrderSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\placeObjectInCameraEditorPositionSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Grab Objects\grabObjects.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeWeaponsGrabbedManager.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\ProjectileWeaponVFX.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\vehicleFuelOnInventory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\portableClimbRopeTriggerSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\vp_ItemInstance.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Captures\cameraPerspectiveSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Attachments\weaponsAttachmentUIManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\screenActionInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\tagLayerSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\moveObjectSmoothlySystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\SurfaceEffect.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Menu\GKCLoadingScreenSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\stairAdherenceSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Panel Info System\sliderInfoSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\airAttackToLandSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_AudioUtility.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\Slice System\sliceSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\healthSliderInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\freeClimbSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\throwObjectTrayectorySystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Info\HealingItemInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Player Camera\cameraStateInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\showValuesOnScreenSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\chestSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\saveGameInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\meleeWeaponConsumablePickup.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\LauncherWeapon.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Utils\Panel.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\putGear.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryCaptureManagerTransparent.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\PostProcessing\PostProcessingManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\characterAspectCustomizationUISystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPWeaponThrower.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Demo\vp_FPSDemoPlaceHolderMessenger.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\Hitbox.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\vp_Inventory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\abilityPickup.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\ShaftedProjectile.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\moneyPickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Demo\moveObject.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_EventDump.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\fullArmorClothTemplateData.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\damageScreenSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\PlayerItemContainer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\launchedObjects.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\saveSkillsInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\bulletTimeFiringSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\pickUpElementInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Physics\EquipmentPhysicsHandler.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_RigidbodyFX.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Generic Model Controller\wolfCharacterController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Puzzles\puzzleSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\savePlayerWeaponsInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\remotePlayerNavmeshOverride.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\AI\vp_SecurityCamTurret.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\States\Examples\freezeCharacterState.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\gravityWallRunSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\gameLanguageSelector.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\applyDamageOnArea.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Player Camera\externalShakeListManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\vendingMachine.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Weapon_Scripts\HandgunScriptLPFP.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_WeaponHandler.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistanceElementsOnSceneBySaveSlotInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\EquipmentFixer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleLensFlareSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Foot Step\noiseMeshSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\audioSourceInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Info\MeleeWeaponInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\emptyVehicleController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Projectiles\dissolveProjectile.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Projectiles\projectileSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Game Manager\gameManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Animator IK\handsOnSurfaceIKSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Foot Step\footStepSurfaceSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Custom AI Behavior\closeCombatAIBehavior.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\customAbilitySystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\oxygenPickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\templateStatTypeComponent.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\dummyVehicleController.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Motion\vp_Perlin.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\showGameInfoHud.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\vehicleFuelPickup.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\UI_PlayerInteraction.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\initialPopUpWindow.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\closetSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Dialog System\completeDialogInfo.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_HelpBoxAttribute.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\damageInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Handlers\Humanoid.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GameUtils\LightEffect.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Physics\EquipmentPhysics.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\vp_UnitBankInstance.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\freeClimbSystemIK.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Info\EquipmentPhysicsInfo.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_RagdollHandler.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\hideBodyPartOnCharacterSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\healthManagement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\airCraftController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Vehicles\vehicleCameraController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\JoystickData.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPBodyAnimator.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Motion\vp_AngleBob.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Pooling\ObjectPooling\PoolableObject.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Menu\PauseMenu.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\CloneableObject.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\usingDevicesSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\animatorTriggerEvent.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\climbRopeTriggerSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\dissolveObject.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\languageLocalizationManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Event System\eventObjectFoundOnCaptureSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\Interaction\vp_Interactable.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\DamageDealerObject.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Combat\vp_Grenade.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Player\PlayerInput_PC.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Override System\objectToOverrideSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\touchScreenPinchSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleAudioPlay.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\wallSlideJumpZoneSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\searchMeleeSurfaceSystem.cs" />
     <Compile Include="Assets\Script\Script Alex\CMouseLook.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Game Manager\mainManagerAdministrator.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Utils\UI_MessageDisplayer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\friendListManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\New Weapon Behaviors\surfaceToSlice.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\animatorTriggerEnterExitEvent.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\gravityWallRunTriggerSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Projectiles\laserMine.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Turret\manageAITarget.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\deviceStringAction.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Grab Objects\grabObjectsPowerSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\skillsLocalizationManagerEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Misc\MaterialChanger.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Skills System\skillSlotPanel.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\electronicDevice.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Experience System\objectExperienceSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\Others\FPArmsInfo.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPCameraSmoothToggle.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\consumableInventoryPrefabCreationSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\PlayerEquipmentController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryInfo.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Demo_Scene_Components\Scripts\DebrisScript.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Grab Objects\grabPhysicalObjectSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\vehicleInterface.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Quick Access System\inventoryQuickAccessSlotElement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\slideSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponSwayInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Scripts\CTI_CustomWind.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\ItemTypes\vp_CustomType.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Experience System\experienceObtainedInfoPanel.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\pointAndClickLocalizationManager.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Info\EquipmentAnimationInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\wallRunningSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Effects\SurfaceSystem\vp_SurfaceIdentifier.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\HealingItem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\armorClothInventoryPrefabCreationSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Vehicles\vehicleCameraShake.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\useInventoryObject.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\waypointPlayerPathSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Types\Value.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\UI_DamageGUI.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\EquipmentModelHandler.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\securityCamera.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\savePlayerInventoryInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\hitCombat.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\interactionObjectsLocalizationManager.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Demo\vp_FPSDemoManager.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\SurfaceManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\remotePlayerNavmeshOverrideSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Combat\vp_HitscanBullet.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\weakSpotInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Info\GunInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Player\PlayerDeath.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\externalControllerBehavior.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\vp_Gameplay.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Others\setTransparentSurfacesSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\characterAspectCustomizationTemplateData.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Tutorial System\tutorialInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\applyHealOnArea.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\playerSphereModeSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_WeaponReloader.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Gravity\zeroGravityRoomSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\TagAttribute.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Camera\_Core\PlayerCamera.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Checkpoint\checkpointElement.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_PlayerFootFXHandler.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\arrowManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\pauseAnimationSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Gravity\vehicleGravityControl.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\armorClothStatsInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\touchButtonColorChangeSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\ContainerGenerator.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Demo\deviceToActive.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Dialog System\dialogContentTemplate.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_3rdPersonWeaponAim.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Motion\vp_Spring.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Motion\vp_Toss.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\abilityInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\Console Mode\consoleMode.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\States\Examples\characterSlowDownVelocity.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Scriptable Objects\objectTransformInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\projectilesOnCharacterBodyManager.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Camera\_Core\CameraFOVHandler.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeCombatThrowReturnWeaponSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleAnimationSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Character Builder\bodyMountPointsSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\carryPhysicallyObjectFromInventory.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\DamageInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Misc\DontDestroyOnLoad.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Effects\SurfaceSystem\vp_DecalManager.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPWeaponShooter.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\States\setCharacterAffectedState.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\IDamageable.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\Info\ProjectileWeaponInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\PreviewSpriteAttribute.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\inventoryPickup.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPWeapon.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Player Camera\setCameraFOVValue.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Menu\setCanvasParentSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Misc\ItemSelection.cs" />
     <Compile Include="Assets\MiProject\Shared\Scripts\ProximityActivate.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Projectiles\audioClipBip.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\drainStatSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistanceMeleeWeaponListBySaveSlotInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryListManager.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Casings_&amp;_Projectiles\CasingScript.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\playerIdleSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\characterAspectCustomizationTemplate.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\pointAndClickLocalizationManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\walkOnBalanceTriggerSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\applyDamage.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Powerups\vp_SlomoPowerup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\GKCRiderSocketSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\examineObjectSystemPlayerManagement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Faction\characterFactionManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Generic Model Controller\customCharacterControllerBase.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Melee Combat System\AIMeleeCombatSystemBrain.cs" />
+    <Compile Include="Assets\Game Kit Controller\Documentation\Integrations\UMA\UMA\UMAIgnoreTransformAndChildsEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryListElement.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_Activity.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\externalDamageProperties.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Level\MovingPlatform\vp_MovingPlatform.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\fieldOfViewMeshSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPInput.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Menu\sceneLoadSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Spring\SpringForce.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\slowObjectsColor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\hoverBoardWayPoints.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Misc\IObjectReferenceFiller.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\meleeWeaponConsumableInventoryPrefabCreationSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\graphicQualitySettingsSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\saveTravelStationInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Types\Message.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\manualDetonationMineObject.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\objectSignalForTargetToAI.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\laserVisionSystem.cs" />
     <Compile Include="Assets\Script\Script Alex\CGunSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\ExplosiveBarrel.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\AudioUtils\AudioUtils.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\setGameObjectActiveState.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Event System\remoteEventActivator.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Map\buildingAndFloorObjectInfoSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPInteractManager.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Motion\vp_Bob.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Attachments\attachmentIconInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\swimTriggerSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\meleeWeaponOnInventory.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\MinMaxAttribute.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Others\setTransparentSurfaces.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\playerHUDManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\weaponOnInventory.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Third_Person_Character\Components\Plane_Demo_Scene_Components\Scripts\FieldOfViewIncreaseLPFP.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\freeFallCharacterActivator.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\Interaction\vp_Climb.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\laserDevice.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Character Builder\buildPlayer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponListManager.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Unarmed.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Elements On Scene\elementOnScene.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\ItemTypes\vp_UnitBankType.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Hide System\hideFromEnemiesSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\weaponAttachmentPickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Generic Model Controller\setCustomCharacterStateTriggerSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\IKWeaponInfo.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\ComponentSystem\vp_Component.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_PlayerRespawner.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_PlayerDamageHandler.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\perfectDodgeSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Camera Effect\customCameraEffect.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistancePlayerMissionsListBySaveSlotInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\UIMouseHoverEvent.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\playerPrefsCustomData.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\saveMeleeWeaponsInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\Scanner System\simpleScannerSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\inputManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\jumpPlatform.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\checkCollisionType.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GeneralDataUtils\ProbabilityUtils.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Slots\UI_ItemSlotInterface.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Elements On Scene\elementsOnSceneData.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Demo\simpleObject.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Grab Objects\outlineObjectSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\playSoundOnTriggerEnter.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\InventoryHumanoidControl.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Camera\Physics\CameraPhysicsPreset.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Attachments\laserAttachment.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Map\glossaryElement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Gravity\gravityObjectManager.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Third_Person_Character\Components\Plane_Demo_Scene_Components\Scripts\PropellerRotateLPFP.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\inventoryExtraSpacePickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\mouseCursorController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeWeaponAttackInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Checkpoint\checkpointSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponTransformData.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeWeaponTransformInfoSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\UIElementsLocalizationManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\New Powers Behaviors\pushObjectsPower.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\waypointPlatform.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\blackHoleProjectile.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\shieldSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\teleportationPlatform.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\lockedCameraSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Camera Effect\cameraEffect.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Level Manager\travelStationUISystem.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Casings_&amp;_Projectiles\ProjectileScript.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Info\ThrowingWeaponInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\playerStateSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Gravity\gravitySystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\openInitialPopUpWindow.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\playerDamageOnScreenInfoSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\dashSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponTransformInfoSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\Tweening\Easings.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\FootstepManager\vp_SurfaceIdentifier.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\changeObjectColors.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\ammoPickup.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Camera\Physics\CameraMotionState.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\armorClothPieceTemplateData.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\GenericVitals.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistanceWeaponAttachmentListBySaveSlotInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Map\setMapOrientationSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Override System\overrideController.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GameUtils\PivotDisplayer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\energyPickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\interactionObjectsLocalizationManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Menu\menuPause.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\energyOnInventory.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_Gizmo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\Fire.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Quick Access System\inventoryQuickAccessSlotsSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\hiddenMeleeSurface.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_DecalManager.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Combat\vp_DamageTransfer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\elevatorFloorsPanel.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\portableWalkOnBalanceTriggerSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Demo\vp_FPSDemo3.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryObjectToEquipInfo.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_LocalPlayer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\New Projectiles Behaviors\brainwashAIProjectile.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Action System\actionSystem.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Misc\LookAtCamera.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\moveDeviceToCamera.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Player Camera\externalCameraShakeSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleRaycastPlacementDetector.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Motion\vp_RigidbodyImpulse.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Level\Spawning\vp_Remover.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_SimpleFiring.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\matchPlayerToTargetSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeWeaponAttackListInfoSocketEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Entity\EntityDamageDealer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\objectOnInventory.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\AnimationUtils\AnimationOverrideClips.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Grab Objects\grabPhysicalObjectMeleeAttackSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\Slice System\sliceSystemUtils.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\consoleLogOnScreenSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\playerWeaponsManager.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Interaction\Interactables\EquipmentPickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\IKWeaponSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\oneWayPlatformSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\Equipment\UI_CrosshairManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\inventoryLocalizationManager.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\ChangeArmsSkin.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Third_Person_Character\Components\Scripts\ThirdPersonDemoLPFP.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\railTriggerSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Level\Spawning\vp_Respawner.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Objectives Mission System\objectiveLogSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\EquipmentInstance.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Grab Objects\grabbedObjectMeleeAttackSystem.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Weapon_Scripts\SniperScriptLPFP.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Demo_Scene_Components\Scripts\GasTankScript.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\securityCameraControl.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\objectToFollowOnThrowMeleeWeapon.cs" />
     <Compile Include="Assets\Low Poly FPS Pack\Components\Demo_Scene_Components\Scripts\LightningScript.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\playerShieldSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\meleeWeaponPickup.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_3DUtility.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_ParticleFXPooler.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\closeCombatSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Effects\SurfaceSystem\vp_SurfaceType.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Generic Model Controller\basicAnimatorController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Skills System\skillSettingsTemplate.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\Explosion.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\padlockSystemPlayerManagement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryCategoryInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Player\PlayerAudio.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Pooling System\GKC_SimplePoolPreloadSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\Info\EquipmentItemInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Experience System\playerExperienceSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Containers\UI_ItemContainerInterface.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\hoverCraftController.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Components\PlayerComponent.cs" />
     <Compile Include="Assets\UFPS\VR\Scripts\vp_VRCameraManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\New Projectiles Behaviors\removeGravityFromCharactersProjectile.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Menu\openMenuSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\FPSCounter.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\setObjectParentSystem.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Effects\SurfaceSystem\vp_SurfaceManager.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\ItemTypes\vp_ItemType.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\vp_ItemPickup.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Level\Spawning\vp_Placement.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_PlayerItemDropper.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_Attempt.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_StateEventHandler.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\Attributes\vp_InventoryCapsAttribute.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_WeaponShooter.cs" />
-    <Compile Include="Assets\Script\Script Alex\CRecoil.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPInventory.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_PulsingLight.cs" />
-    <Compile Include="Assets\Low Poly FPS Pack\Components\Demo_Scene_Components\Scripts\TargetScript.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_Value.cs" />
-    <Compile Include="Assets\Script\Script Alex\CViewBobbing.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_FloatFieldAttribute.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\AI\vp_SimpleAITurret.cs" />
-    <Compile Include="Assets\MiProject\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Explosions_&amp;_Impacts\ExplosionScript.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_MathUtility.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPPlayerEventHandler.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\vp_ItemIdentifier.cs" />
-    <Compile Include="Assets\UFPS\VR\Scripts\vp_VRWeaponManager.cs" />
-    <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Explosions_&amp;_Impacts\ImpactScript.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_Timer.cs" />
-    <Compile Include="Assets\Script\Script Alex\CCamerasShake.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Level\Spawning\vp_RandomSpawner.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\GUI\vp_SimpleHUD.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPCamera.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Level\Spawning\vp_SpawnPoint.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_Layer.cs" />
-    <Compile Include="Assets\UFPS\VR\Scripts\vp_VRCrosshair.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Effects\SurfaceSystem\vp_Effect.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_CharacterController.cs" />
-    <Compile Include="Assets\Script\Script Alex\CPlayerMovement.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPPistolReloader.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_PropertyDrawerUtility.cs.cs" />
-    <Compile Include="Assets\UFPS\VR\Scripts\vp_VRPainFlash.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPEarthquake.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Demo\vp_DemoManager.cs" />
-    <Compile Include="Assets\Script\Script Alex\CGun.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\Interaction\vp_PlatformSwitch.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_Debris.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_PoolManager.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Effects\SurfaceSystem\vp_ImpactEvent.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_MuzzleFlash.cs" />
-    <Compile Include="Assets\MiProject\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Powerups\vp_Powerup.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPController.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_PlayerEventHandler.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_Controller.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_Weapon.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Combat\vp_FXBullet.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_EventHandler.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\IDamageable.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\ItemProperty.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\Info\ProjectileWeaponInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\PreviewSpriteAttribute.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\New Powers Behaviors\joinObjectsPower.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Types\Activity.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Equipment\UI_ItemWheel.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\EquipmentAnimationHandler.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\GameManager.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\Inventory.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Misc\ItemSelection.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Misc\MaterialChanger.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\EquipmentItem.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Physics\EquipmentPhysicsHandler.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\Others\FPArmsInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Spring\UI_Spring.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\RevolverCyllinderCorrector.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\PlayerEquipmentController.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Info\CompassInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Misc\IdGenerator.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Slots\UI_Slot.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Spring\RecoilForce.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryManagerInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\playerController.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\EquipmentHandler.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\MultilineCustom.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\TriggerHitbox.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Spring\UI_SpringForce.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\Tweening\Easer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Slots\UI_ItemSlotInterface.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GeneralDataUtils\ProbabilityUtils.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\EquipmentSelection.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\SubClasses\CartridgeObject.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\DatabaseCategory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\motorBikeController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\setInitialPositionAtGameStart.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryManager.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Components\HumanoidComponent.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\UserInterfaceUtils\GUIUtils.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GameUtils\OnCollisionBehaviour.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\StartupInventory.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Info\EquipmentModelInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\MeleeWeapon.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Enumerations.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Pooling\ObjectPooling\PoolingManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\ammoInventoryPrefabCreationSystem.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Camera\Physics\ShakeManager.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\SurfaceIdentity.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Info\UnarmedInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\InventoryHumanoidControl.cs" />
-    <Compile Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Scripts\CTI_CustomWind.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\ItemSlot.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Entity\EntityDamageDealer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\EquipmentFixer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\IEquipmentComponent.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Player\PlayerMovement.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Info\EquipmentAnimationInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Camera\Physics\CameraPhysicsPreset.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Camera\_Core\RootHeightHandler.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\HealingItem.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Reorderable.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Compass.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Containers\UI_ContainerInterface.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\AnimationUtils\AnimationOverrideClips.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Info\MeleeWeaponInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Handlers\Entity.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\ProjectileWeaponRecoil.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Misc\DestroyWithDelay.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\EnumExtensions.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GameUtils\DisableAtStartBehaviour.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Equipment\UI_Hotbar.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\SimpleMinMaxAttribute.cs" />
-    <Compile Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Scripts\CTI_Utils.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Camera\Physics\CameraShakes.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\ReadOnly.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Interaction\Interactables\EquipmentPickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\New Weapon Behaviors\dragObjectSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\laserConnector.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\findObjectivesSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vendor System\vendorUISystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Action System\playerActionSystem.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\ItemTypes\vp_ItemType.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\saveGameInfoHelper.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\eventObjectFoundOnRaycastSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\BezierSpline.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\vp_ItemPickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Elements On Scene\elementOnSceneManager.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Level\Spawning\vp_Placement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\playerStealthSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\setFixedRotation.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\dropPickUpSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\accessTerminal.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Interaction\Interactables\InteractiveObject.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Types\Value.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\EquipmentModelHandler.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\UI_DamageGUI.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Interaction\Interactables\ItemPickup.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Spring\SpringForce.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\Equipment\UI_CrosshairManager.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Interaction\RaycastInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\HealsManager.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\ProjectileWeaponVFX.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\FPArmsHandler.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\Equipment\UI_HealsInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\ChangeArmsSkin.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Misc\IObjectReferenceFiller.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\ItemCategory.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\ItemPropertyDefinition.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Info\ProjectileWeaponVFXInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\SurfaceManager.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\ItemInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Types\Message.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\SurfaceEffect.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Info\GunInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\DestructibleObject.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Slots\UI_SlotGroup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\animalAINavmesh.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\spawnObject.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\armorClothOnInventory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\addGrenadeToThrowAwayFromCharacter.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_PlayerItemDropper.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Override System\overrideCameraController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Grab Objects\objectDistributorSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\playerInputPauseSystem.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_Attempt.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_StateEventHandler.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\experienceMultiplierPickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\inputDoubleClickEventSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Grab Objects\grabObjectEventSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\otherPowers.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleLaserObjectDetectorSystem.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\Attributes\vp_InventoryCapsAttribute.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\ItemsEnumerations.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\UI_PlayerInteraction.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Player\PlayerDeath.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\AssetSingleton.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\EquipmentInstance.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\ChangeItemSkin.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\GroupAttribute.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\ItemContainer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\ExplosiveBarrel.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\AudioUtils\AudioUtils.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\Equipment\UI_CrosshairInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Types\Attempt.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Info\ProjectileWeaponRecoilInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\TagAttribute.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Decal\decalManager.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_WeaponShooter.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Condition System\GKCInventoryConditionSystem.cs" />
+    <Compile Include="Assets\Script\Script Alex\CRecoil.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\flyingController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\simpleSwitch.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\weaponShellSystem.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPInventory.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Info\LauncherInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Camera\_Core\PlayerCamera.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Info\ThrowingWeaponInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GameUtils\LightEffect.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Handlers\Humanoid.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Components\EntityComponent.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\Equipment\UI_WeaponInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\_Core\UserInterfaceBehaviour.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\EnableIf.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_PulsingLight.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Camera Effect\cameraEffectSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Head Track\headTrack.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\AudioUtils\SoundPlayer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Physics\EquipmentPhysics.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Entity\EntityDeathHandler.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\DatabaseProperty.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Spring\Spring.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Info\EquipmentPhysicsInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\LootContainer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\_Core\ItemDatabase.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Player Camera\externalShakeInfoListElement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Dialog System\dialogContentSystem.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Player\PlayerStateTypes.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Info\HealingItemInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\Item.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\ShowIf.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\WeaponCorrector.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\ItemPropertyInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Gun.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\Tweening\Easings.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\SurfaceInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Attachments\weaponAttachmentSystem.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\ItemDescription.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\SceneField.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\MinMaxAttribute.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Pooling\ObjectPooling\PoolableObject.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\ContainerGenerator.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\ItemSpawner.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\Tweening\EasingOptions.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Menu\PauseMenu.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\DemoInstructions.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\_Core\UI_ScreenFader.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\ReorderableArray.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\Extensions\Extensions.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Camera\Physics\CameraMotionState.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\Equipment\UI_Crosshair.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Physics\EquipmentMotionState.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\GenericVitals.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\CloneableObject.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\LauncherWeapon.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Utils\Panel.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Interaction\PlayerInteraction.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\UI_PlayerVitals.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Flashlight.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Elements On Scene\elementsOnSceneSystem.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack\Components\Demo_Scene_Components\Scripts\TargetScript.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Custom AI Behavior\AIPowersSystemBrain.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\slowDownTarget.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\New Weapon Behaviors\smartphoneDevice.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\damageInScreen.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Demo\setText.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\_Core\UIManager.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\WorldManager.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\EffectAudio.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\WaterBarrel.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Singleton.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\PlayerVitals.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\EntityVitals.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\DamageDealerObject.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\Explosion.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Info\FlashlightInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Unarmed.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\ProjectileWeapon.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\PostProcessing\PostProcessingManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryBankManager.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_Value.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vendor System\vendorCategorySlotPanelInfo.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\DatabaseItem.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\ReorderableLists.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Player\PlayerAudio.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Player\PlayerInput_PC.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Spring\SpringControlInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\Info\EquipmentItemInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\Projectile.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GameUtils\PivotDisplayer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\LayerAttribute.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\Hitbox.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Pooling\ObjectPooling\ObjectPool.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Clamp.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Interaction\Explosive.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Camera\_Core\CameraFOVHandler.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\BHeader.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Containers\UI_ItemContainerInterface.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\ShaftedProjectile.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\DamageInfo.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Misc\DontDestroyOnLoad.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\SurfaceEffects.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Objectives Mission System\setMissionSubObjectiveStateRemotelySystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\shieldPickup.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\_Core\UI_PlayerDeath.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Slots\UI_WheelSlot.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Handlers\Player.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Components\PlayerComponent.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GeneralDataUtils\ColorUtils.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\ThrowingWeapon.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Player\PlayerSpawnPoints.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\SubClasses\GunSettings.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Camera\Physics\CameraPhysicsHandler.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Utils\UI_MessageDisplayer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\Fire.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\PlayerItemContainer.cs" />
+    <Compile Include="Assets\Script\Script Alex\CViewBobbing.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Level Manager\travelStationPanel.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Player Camera\playerCamera.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\damageOnScreenInfoSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\vehicleDamageReceiver.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\EquipmentAnimationHandler.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_FloatFieldAttribute.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Foot Step\customNoiseSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\EquipmentItem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Others\dynamicSplitScreenSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\spriteAnimatorSystem.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\AI\vp_SimpleAITurret.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Others\playerCullingSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Level Manager\levelManagerIngame.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\pressMultipleKeysActionInputSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\staminaOnInventory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\weaponPickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Projectiles\plasmaCutterProjectile.cs" />
+    <Compile Include="Assets\MiProject\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\characterCustomizationInventoryHelper.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Explosions_&amp;_Impacts\ExplosionScript.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_MathUtility.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Containers\UI_ContainerInterface.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\timeBullet.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPPlayerEventHandler.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Misc\DestroyWithDelay.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Mobile\touchJoystick.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GameUtils\DisableAtStartBehaviour.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Inventory\vp_ItemIdentifier.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\New Weapon Behaviors\attrackObjectsSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\GKCSimpleRiderSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\playerAbilitiesUIEditorSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Objectives Mission System\objectiveEventSystem.cs" />
+    <Compile Include="Assets\UFPS\VR\Scripts\vp_VRWeaponManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\weaponAttachmentOnInventory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\throwGrenadeSystem.cs" />
+    <Compile Include="Assets\Low Poly FPS Pack\Components\Scripts\Explosions_&amp;_Impacts\ImpactScript.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\meleeWeaponConsumableOnInventory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Foot Step\footStepManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleMoveObjectSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Types\Attempt.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\GKC_Utils.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\powersListElement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Objectives Mission System\objectiveStationSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Spring\Spring.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Gun.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_Timer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\jetpackSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\ReorderableArray.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\playerGravitySystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\currencySystem.cs" />
+    <Compile Include="Assets\Script\Script Alex\CCamerasShake.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\skillPointPickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Turret\AITurret.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\jetpackFuelPickup.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Level\Spawning\vp_RandomSpawner.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\flySystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\activateReactionSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\laserReceiver.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\laserPlayer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Head Track\pointToLook.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\followObjectPositionSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\hackTerminal.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Input\touchButtonEventSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Interaction\Explosive.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistancePlayerStatsListBySaveSlotInfo.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\GUI\vp_SimpleHUD.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\SurfaceEffects.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\fakeProjectileTrailSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\railSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Dialog System\characterDialogContentSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\playerAbilitiesSystem.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GeneralDataUtils\Vector3Utils.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\FPSCounter.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Event System\changePlayerStateOnTriggerSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Gravity\artificialObjectGravity.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPCamera.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Camera Effect\extraCameraEffectSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\rotateObjects.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Elements On Scene\elementOnSceneHelper.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\RevolverCyllinderCorrector.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Level\Spawning\vp_SpawnPoint.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\Vehicle Controllers\carController.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_Layer.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Slots\UI_Slot.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Game Manager\playerCharactersManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\spiderControllerInterface.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Event System\eventInfoSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Stats System\persuasionSystem.cs" />
+    <Compile Include="Assets\UFPS\VR\Scripts\vp_VRCrosshair.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\Grappling Hook System\objectToAttractWithGrapplingHook.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Effects\SurfaceSystem\vp_Effect.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Hide System\hideCharacterFixedPlaceSystemPlayerManagement.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_CharacterController.cs" />
+    <Compile Include="Assets\Script\Script Alex\CPlayerMovement.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Map\mapZoneUnlocker.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Map\GKC_Triangulator_Utils.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Custom Class To Save\saveInventoryBankInfo.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPPistolReloader.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Player Camera\externalShakeInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\applyDissolveOnArea.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Character Aspect Customization System\characterCustomizationInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\brainwashAIState.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\meleeWeaponInventoryPrefabCreationSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\AIViewTriggerSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Interaction\RaycastInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\scanElementInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Gravity\parentAssignedSystem.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Core\Attributes\vp_PropertyDrawerUtility.cs.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\DestructibleObject.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\AI\vehicleAINavMesh.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\dualWieldMeleeWeaponObjectSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Point And Click\playerNavMeshSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\EnableIf.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Grab Objects\putObjectSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\simpleLaser.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\Item.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\Slice System\simpleSliceSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\inventoryPrefabCreationSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Scriptable Objects\inventoryListManagerData.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\Tweening\EasingOptions.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\Inventory Pickups Behaviour\shieldOnInventory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\mainRiderSystem.cs" />
+    <Compile Include="Assets\UFPS\VR\Scripts\vp_VRPainFlash.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Flashlight.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPEarthquake.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\Pickups Behaviour\meleeShieldPickup.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\EntityVitals.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Demo\vp_DemoManager.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\Info\FlashlightInfo.cs" />
+    <Compile Include="Assets\Script\Script Alex\CGun.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\playSoundOnCollision.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\taskCounterSystem.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\Interaction\vp_PlatformSwitch.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Action System\customActionSystemTrigger.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_Debris.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeWeaponAttackListInfoSocket.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Captures\cameraCaptureSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Grab Objects\grabbedObjectState.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Extra Movements\wallSlideJumpSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Player Camera\camera2_5dZoneLimitSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Dialog System\dialogSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\railMechanism.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\damageOrHealTrigger.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\playerStatesManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Scriptable Objects\objectTransformData.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Health\health.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Foot Step\noiseSystem.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Core\Utility\vp_PoolManager.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Effects\SurfaceSystem\vp_ImpactEvent.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Camera Effect\photoModeSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Camera\Cutscene\cameraWaypointSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\DatabaseCategory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\ignoreCollisionHelper.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\MeleeWeapon.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Projectiles\projectileInfo.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Effects\vp_MuzzleFlash.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Inventory\generalItemOnInventory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistancePlayerSkillsListBySaveSlotInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\saveGameSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\New Weapon Behaviors\healerWeapon.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\Generic Model Controller\customCharacterControllerBaseBuilder.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\characterStateIconSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Game Manager\prefabsManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\Close Combat\AICloseCombatSystemBrain.cs" />
+    <Compile Include="Assets\MiProject\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\ProjectileWeaponRecoil.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\AI\WaypointCircuit.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\IKDrivingSystem.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Powerups\vp_Powerup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\launchTrayectory.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Combat System\Melee Combat System\meleeWeaponInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\playerTeleportSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\Custom Abilities\slowDownAllAIOnSceneSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\skillsLocalizationManager.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\Projectiles\spearProjectile.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\localizationToolEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\GroupAttribute.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Player\upperBodyRotationSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Powers\nanoBlade.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\AI\AINavMeshMoveInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\HUD\Equipment\UI_CrosshairInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Abilities System\abilitySlotElement.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\vp_FPController.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\Persistance Classes\persistanceInventoryListBySaveSlotInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\DatabaseProperty.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\simpleSniperSightSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vehicles\vehicleBuilder.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_PlayerEventHandler.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\followObjectPositionUpdateSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\saveGameSlot.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleEventSystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Physics\EquipmentMotionState.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Interaction\PlayerInteraction.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Damage\PlayerVitals.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_Controller.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Player\vp_Weapon.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Save System\playerPrefsCustomInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Event System\remoteEventSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Localization System\UIElementsLocalizationManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Vendor System\vendorObjectSlotPanelInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\New Weapon Behaviors\gravityGun.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Combat\vp_FXBullet.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Weapons\playerWeaponSystem.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Core\EventSystem\vp_EventHandler.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Others\simpleCoinPickup.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Tutorial System\tutorialActivatorSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Override System\overrideElementControlSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\PickUps\pickUpsScreenInfo.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\BHeader.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Tutorial System\playerTutorialSystem.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Gravity\objectToUseArtificialGravitySystem.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Equipment\ThrowingWeapon.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Devices\rechargerStation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
+    <None Include="Assets\Game Kit Controller\Documentation\Integrations\UMA\UMA 2 Integration.txt" />
     <None Include="Assets\MiProject\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Run.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Default.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\Others\Transparent Diffuse Stipple.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ArtilleryController.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Default.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\Dissolve.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernWeaponZoom.txt" />
+    <None Include="Assets\Game Kit Controller\Documentation\CHARACTERS CROSSING THE GROUND FIX (Import External Packages Before Starting).txt" />
     <None Include="Assets\UFPS\VR\Content\Presets\VRPistolRun.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegun.txt" />
     <None Include="Assets\MiProject\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Game Kit Controller\Documentation\Integrations\EBS\GKCInputBehaviour.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PivotMuzzleWeapon.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\Projector.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SmackController.txt" />
     <None Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
+    <None Include="Assets\Game Kit Controller\Documentation\Patreon Honorable Mention.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunZoom.txt" />
     <None Include="Assets\HQFPSTemplate\Core\Shaders\TransparentWeaponShader.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ArtilleryCamera.txt" />
@@ -485,6 +1270,7 @@
     <None Include="Assets\___www.unityassetcollection.com___.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\WallFacingCamera.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\ShooterAssaultRifle01Default.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\Glow Shader.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToDown.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaWeaponCrouch.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyInput.txt" />
@@ -517,16 +1303,20 @@
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01Zoom.txt" />
     <None Include="Assets\UFPS\Base\Content\Art\Body\Materials\InvisibleShadowCaster.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolCamera.txt" />
+    <None Include="Assets\Game Kit Controller\Documentation\Integrations\Universal AI\GKCUniversalAIDamageDetectionInterface.txt" />
     <None Include="Assets\HQFPSTemplate\Core\Shaders\StandardWeaponShader.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraRun.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseLowSensCamera.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\Others\See Through Surfaces 1.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01OutOfControl.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ControllerCrouch.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\additive.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraDead.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\TurretCamera.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterRevolver.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaShooterZoom.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\WallFacingInput.txt" />
+    <None Include="Assets\Game Kit Controller\Demo 3d Model\Characters\Third Person Character\Animation\Ellen\Shaders\EyeLash.shader" />
     <None Include="Assets\MiProject\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\OldSchoolInput.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseLowSensInput.txt" />
@@ -550,6 +1340,7 @@
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistolOutOfControl.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Idle.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegun.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\Camera Effects\Solid Shader.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Zoom.txt" />
     <None Include="Assets\MiProject\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SniperShooter.txt" />
@@ -559,10 +1350,13 @@
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFShooter.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Shooter\ShooterPistol.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SniperWeapon.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\Camera Effects\Night Vision.shader" />
+    <None Include="Assets\Game Kit Controller\Documentation\Unity Bug on 2018.3 with Rigidbodies Fix.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernShooter.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SniperCamera.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Zoom.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspModernInput.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\Simple Blur Shader.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraCrouch.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Crouch.txt" />
     <None Include="Assets\UFPS\Base\Content\Levels\SkyCity\CustomShaders\Scroll_Emissive.shader" />
@@ -588,6 +1382,7 @@
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerClimb.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraReload.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechInput.txt" />
+    <None Include="Assets\Game Kit Controller\Materials\Probuilder\pb_StandardVertexColor.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SimpleAIShooter.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponSwingRight.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DrunkController.txt" />
@@ -608,7 +1403,9 @@
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DrunkWeapon.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\Persp1999Camera.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\Persp1999Weapon.txt" />
+    <None Include="Assets\Game Kit Controller\Demo 3d Model\Characters\Third Person Character\Animation\Ellen\Shaders\EyeBallsHD.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\TurretInput.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\Camera Effects\Pixel Shader.shader" />
     <None Include="Assets\MiProject\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01Default.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyWeaponZoom.txt" />
@@ -620,6 +1417,7 @@
     <None Include="Assets\MiProject\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFController.txt" />
     <None Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Shaders\CTI_LOD_Bark_301.shader" />
+    <None Include="Assets\Game Kit Controller\Shaders\Others\Transparent Diffuse (Improved).shader" />
     <None Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Resources\CTI_Internal-DeferredReflections.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponPullDown.txt" />
     <None Include="Assets\UFPS\VR\Content\Presets\VRMachinegunRun.txt" />
@@ -637,6 +1435,8 @@
     <None Include="Assets\UFPS\VR\Content\Presets\VRCameraDead.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01OutOfControl.txt" />
     <None Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Shaders\CTI_LOD_Leaves_301.shader" />
+    <None Include="Assets\Game Kit Controller\Shaders\laserShader.shader" />
+    <None Include="Assets\Game Kit Controller\Shaders\Outlined.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaWeaponZoom.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\AstronautCamera.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunRun.txt" />
@@ -653,7 +1453,9 @@
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ControllerMegaSpeed.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceCamera.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Crouch.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\Camera Effects\SplitScreenMask.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponSwingDownLeft.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\Camera Effects\Drunk.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Grenade01\WeaponGrenade01Zoom.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToRight.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernWeaponCrouch.txt" />
@@ -669,6 +1471,7 @@
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ModernCameraZoomInput.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaWeapon.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\CowboyCamera.txt" />
+    <None Include="Assets\Game Kit Controller\Demo 3d Model\Characters\Third Person Character\Animation\Ellen\Shaders\SculptedHair.shader" />
     <None Include="Assets\MiProject\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Slide.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerRun.txt" />
@@ -678,20 +1481,25 @@
     <None Include="Assets\UFPS\VR\Content\Presets\VRRevolverReload.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\ImmobileWeapon.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Camera\CameraFreeze.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\Others\See Through Surfaces 2.shader" />
     <None Include="Assets\UFPS\Base\Content\Art\Weapons\Source\BasicArms\_README_BasicArms.txt" />
     <None Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Shaders\Includes\CTI_Builtin4xTreeLibraryTumbling_301.cginc" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\FootFX\FootFXFixedTimeCrouch.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\runShader.shader" />
+    <None Include="Assets\Game Kit Controller\Shaders\Others\Cloak Shader.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\PerspOldCamera.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponSwingDownRight.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\WallFacingWeapon.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverCrouch.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MechWeaponZoom.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\Camera Effects\Oil Paint.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Knife01\KnifeAttackToDownRight.txt" />
     <None Include="Assets\HQFPSTemplate\Core\Shaders\StandardCrossfade.shader" />
     <None Include="Assets\UFPS\VR\Content\Presets\VRMachinegunZoom.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\DrunkCamera.txt" />
     <None Include="Assets\UFPS\VR\Content\Scenes\_VR_SCENE_SETUP_README_.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MaceWeapon.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\textShader.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistol.txt" />
     <None Include="Assets\MiProject\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaInput.txt" />
@@ -703,10 +1511,12 @@
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MouseRawUnityWeapon.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\AstronautController.txt" />
     <None Include="Assets\UFPS\VR\Content\Presets\VRMachinegunDefault.txt" />
+    <None Include="Assets\Game Kit Controller\Shaders\Camera Effects\Underwater Shader Effect.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolOutOfControl.txt" />
     <None Include="Assets\HQFPSTemplate\Core\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\FreezeInput.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaCamera.txt" />
+    <None Include="Assets\Game Kit Controller\Demo 3d Model\Characters\Third Person Character\Animation\Ellen\Shaders\ToonSkin.shader" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\AstronautInput.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Controller\ControllerDefault.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeAttackToDownRight.txt" />
@@ -714,8 +1524,10 @@
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MeleeWeaponPullLeft.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Input\InputClimb.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\MafiaCameraCrouch.txt" />
+    <None Include="Assets\Game Kit Controller\Documentation\Readme.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Gameplay\Player\Local\OldInventory\_OLD_INVENTORY_README_.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Demo\SystemOFFInput.txt" />
+    <None Include="Assets\Game Kit Controller\Documentation\Old documentation\IMPORTANT ABOUT OLD DOCUMENTATION.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Reload.txt" />
     <None Include="Assets\UFPS\Base\Scripts\Presets\Standard\Weapon\WeaponPistolRun.txt" />
     <None Include="Assets\UFPS\Base\Content\Levels\SkyCity\CustomShaders\ReflectiveCubeMapped_Glass.shader" />
@@ -1357,131 +2169,167 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>E:\Unity\2021.3.5f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProGrids.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core.Analytics">
-      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core.Environments">
-      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids">
-      <HintPath>Library\ScriptAssemblies\Unity.ProGrids.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
+      <Project>{9341C9F5-56C4-8ED3-8C14-26E902BB538F}</Project>
+      <Name>Unity.VisualScripting.Flow.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{E887C156-9CBB-7775-BDEF-167663A62EC8}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
+      <Project>{3BF7BA81-C476-7243-049A-49403985B58C}</Project>
+      <Name>Unity.2D.Tilemap.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{EC8A6B05-7F0F-8FE7-B93A-B239C77EE44D}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
+      <Project>{1CE84FF3-B49B-593A-1875-9082BD9EA42C}</Project>
+      <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
+      <Project>{8F5538DD-80B6-4B27-2115-798C74E0FEFE}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{33F4AB50-97BA-DFE4-909A-7E283E50D82C}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{C3308277-8C72-1826-7DA2-3EBC645CE5CE}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
+      <Project>{3465D0A0-220E-F263-E9C3-313D0B948AA9}</Project>
+      <Name>Unity.VisualScripting.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{57FB5187-E998-EFCD-5047-0D9C4B1334E4}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
+      <Project>{F998B092-0467-BBFB-63D2-A3BF8763114E}</Project>
+      <Name>Unity.VisualScripting.State.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="NeoFPS.Managers.csproj">
       <Project>{BB74EB94-708A-4DE2-4941-92F96EDC7880}</Project>
       <Name>NeoFPS.Managers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
+      <Project>{E83A8A7A-F37A-E753-C0E9-96B6B2E14530}</Project>
+      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{D19731BE-2FC3-654F-FA69-ECFBAC80E1E2}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AddOns.Editor.csproj">
+      <Project>{5C8AA0B2-AC00-7D73-F9B7-4B157951B357}</Project>
+      <Name>Unity.ProBuilder.AddOns.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.csproj">
+      <Project>{1D5522E1-CF47-E71B-5373-EAA517C7E0C8}</Project>
+      <Name>Unity.ProBuilder</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{286AECCF-CD68-F159-C676-FB1B71F9947E}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
+      <Project>{E7CEF630-C293-62F8-2A08-D4A08F1DE9D1}</Project>
+      <Name>Unity.ProBuilder.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
+      <Project>{7DFE357F-D0D7-322B-8376-BD8273395885}</Project>
+      <Name>Unity.Postprocessing.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{29C31C5A-6B5D-8A5E-1ADC-0C14E527FBB3}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{455EA1B5-2878-EDA2-AE7E-5B36AE762CA2}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{2A6367CA-B57C-A950-B8B2-636032EBAB08}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProGrids.Editor.csproj">
+      <Project>{3E98A129-6D21-3C5F-7605-3618D2A74CD6}</Project>
+      <Name>Unity.ProGrids.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="NeoFPS.csproj">
       <Project>{2884A845-8FA5-E76A-648A-CD4AFE615183}</Project>
       <Name>NeoFPS</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{6C0586E7-85C8-F5D8-5ECE-9F46BC486602}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{A76858E9-405A-AC67-57C8-F7E59D4725A9}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{76282111-900D-4A25-C59A-045348EFB7E1}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
+      <Project>{7D7E3CEB-BCAE-EBF4-D81F-595B143FABA5}</Project>
+      <Name>Unity.EditorCoroutines.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{F0BC427F-1424-32A1-80E5-3862F99AC2D0}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
+      <Project>{3B9ACFBB-EF95-8418-9C6F-A986ECE14E3C}</Project>
+      <Name>Unity.Services.Core.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
+      <Project>{9D4EE85E-4C11-DE13-916C-C772364B05E5}</Project>
+      <Name>Unity.Postprocessing.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
+      <Project>{77599DEC-699C-2293-2ADC-76D75006730E}</Project>
+      <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{4C8622F2-8628-B9E0-D462-F27E06F4A920}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="NeoSaveGames.Editor.csproj">
       <Project>{AB17DDFB-042F-7628-4668-FEE51E844838}</Project>
       <Name>NeoSaveGames.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
+      <Project>{8DE21807-F88E-0480-B792-1C5C4698ED5F}</Project>
+      <Name>Unity.Services.Core.Environments</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{8CCF0E84-E5B8-B3B1-83F2-E78FB6008C5C}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="NeoSaveGames.csproj">
       <Project>{AC08AF4F-C474-984C-3284-FE9F3A3BAAF2}</Project>
       <Name>NeoSaveGames</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProGrids.csproj">
+      <Project>{9E5DEACC-F5B4-6458-B033-FD2543A3B853}</Project>
+      <Name>Unity.ProGrids</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
+      <Project>{C980F1A2-55A7-DFA4-4452-2E6AA810380E}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.csproj">
+      <Project>{EC593460-C4BA-3B03-CF5C-2F5439BA4710}</Project>
+      <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

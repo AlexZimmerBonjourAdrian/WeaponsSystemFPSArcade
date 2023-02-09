@@ -56,90 +56,250 @@
     <Analyzer Include="E:\VisualStudio\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\CustomizableToolbarSettingsDataDrawer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\objectiveStationSystemEditor.cs" />
     <Compile Include="Assets\MiProject\Shared\Ramps\Editor\RampAssetEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\MultilineCustomDrawer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\pickUpObjectEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\genericRagdollBuilderEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\externalCameraShakeSystemEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\ReorderableList.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\elementOnSceneEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\createMeleeShieldObjectEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\chestSystemEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\Editor\SurfaceManagementWindow.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\zeroGravityRoomSystemEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\Editor\ItemPropertyInfoDrawer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\photoModeSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\cameraEffectSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\inventoryMenuPanelsSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\waypointPlayerPathSystemEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\DatabaseItemDrawer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\CustomizableToolbarSettings.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\characterCustomizationManagerEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_ComponentPersister.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\prefabsManagerEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_WeaponShooterEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\decalTypeInformationEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\simpleEventSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\gameManagerEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\AnimationUtils\Editor\AnimationOverrideClipsDrawer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\editControlPositionEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\vehicleWeaponSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\objectivemanagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\putObjectSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\lockedCameraSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\ragdollBuilderEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Scripts\Editor\CTI_DetailsEnum.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\pickUpsScreenInfoEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\assetVersionWindow.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_FPControllerEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\Menu\vp_AboutBox.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Editor\ObjectReferenceFillerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\setTransparentSurfacesEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\inventoryCaptureManagerTransparentEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\inventoryBankManagerEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\Editor\SurfaceManagerEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GameUtils\Editor\OnCollisionEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\remoteEventSystemEditor.cs" />
     <Compile Include="Assets\MiProject\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\addNewGenericModelToControllerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\IKWeaponSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\powersAndAbilitiesSystemEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Editor\vp_SurfaceIdentifierEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Scripts\Editor\CTI_ShaderGUI.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\featuresManagerEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Editor\GameManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\factionSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\hideCharacterFixedPlaceSystemEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\BHeaderDrawer.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\DatabasePropertyDrawer.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_EditorGUIUtility.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerInputPanelSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerSkillsSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerActionSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\manageAITargetEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_FPInputEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\scanElementInfoEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_FileDialog.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Editor\vp_MovingPlatformEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\customCharacterControllerBaseBuilderEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\vehicleHUDManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\tutorialUISystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\grabObjectsEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\AIWayPointPatrolEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\weaponAttachmentSystemEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\EnableIfDrawer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\pressObjectsInOrderSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerWeaponSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\mapZoneUnlockerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\consoleModeEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\TagDrawer.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_UFPSInfo.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\vehicleBuilderEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\projectileSystemEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\Editor\HQSceneSetupWindow.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Editor\GunVisualEffectsEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\vendorSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\remotePlayerNavmeshOverrideEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\addMeleeWeaponToCharacterEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\simpleSwitchEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\setGameObjectActiveStateEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerControllerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\dropPickUpSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerSkillsUISystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\elementOnSceneManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\meleeWeaponTransformInfoSystemEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Editor\vp_FootstepManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\hoverBoardWayPointsEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\deviceStringActionEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\Editor\DestructibleObjectEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\Editor\LootContainerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\inventoryBankSystemEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GameUtils\Editor\LightEffectEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\buildPlayerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\IKDrivingSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\elevatorSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\AddNewActionSystemToCharacterCreatorEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\addWeaponToCharacterEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_FPPlayerEventHandlerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerCullingSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\dialogContentSystemEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Scripts\Editor\CTI_AdvancedEdgeFluttering.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\GroupDrawer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\useInventoryObjectEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\objectiveEventSystemEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Editor\WorldManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\characterFactionManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\electronicDeviceEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\placeObjectInCameraEditorPositionSystemEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Editor\vp_SpawnPointEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Spring\Editor\SpringDataDrawer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\actionSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerCharactersManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\mapObjectInformationEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\InventoryContainerDrawer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\spriteAnimatorSystemEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Effects\SurfaceSystem\Editor\vp_DecalManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\moveDeviceToCameraEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\Menu\vp_AddonBrowser.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\ReadOnlyDrawer.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_EventDumpWindow.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\Editor\ItemGeneratorDrawer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerCameraEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\mapSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\closeCombatSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\AddNewMeleeAttackActionSystemToCharacterCreatorEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\addPatrolSystemToAIEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\inventoryListManagerEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\Editor\ItemManagementWindow.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\WaypointCircuitEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_EditorApplicationQuit.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\BezierSplineEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\vehicleCameraShakeEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\headTrackEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\findObjectivesSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\screenObjectivesSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerWeaponsManagerEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_ShooterEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\sceneLoadSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\inputManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\weaponCreatorEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Effects\SurfaceSystem\Editor\vp_SurfaceManagerEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\Editor\AddEquipmentWindow.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\Editor\EquipmentHelperEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\createMeleeWeaponEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_EditorUtility.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\checkpointSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\pauseOrResumePlayerControllerAndCameraSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\AIPatrolSystemEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Handlers\Editor\LivingEntityEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerStateSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\inventoryManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\CustomizableToolbarSettingsInspector.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\addSliceSystemToCharacterCreatorEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\gravitySystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\camera2_5dZoneLimitSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\headBobEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerTutorialSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\mapCreatorEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\closetSystemEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_InputEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_FPWeaponMeleeAttackEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\Menu\vp_UFPSMenu.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_FPWeaponShooterEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\objectToAttractWithGrapplingHookEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\eventTriggerSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\armorClothSystemCreatorEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\cameraCaptureSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\externalShakeListManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\setGravityEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\ClampDrawer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\eventInfoSystemEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\MinMaxDrawer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\inputActionManagerEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_WeaponEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\doorSystemEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\DatabaseCategoryDrawer.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Editor\CopyPasteBase.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\vehicleCreatorEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_FPCameraEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerStatesManagerEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Effects\Editor\vp_PlayerFootFXHandlerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\mapTileBuilderEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\dialogManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerStatsSystemEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\Editor\StartupInventoryEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\mainManagerAdministratorEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Gameplay\Editor\vp_RemotePlayerWizard.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\Menu\vp_UpdateDialog.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\overrideInputManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\CharacterCreatorEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\otherPowersEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\weaponAnimatorSystemEditor.cs" />
     <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_FPWeaponEditor.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_PresetEditorGUIUtility.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_MessageBox.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_InputWindow.cs" />
-    <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_TimerEditor.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\MultilineCustomDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\ShowIfDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\ReadOnlyDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Events\Handlers\Editor\LivingEntityEditor.cs" />
-    <Compile Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Scripts\Editor\CTI_AdvancedEdgeFluttering.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\ClampDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\Editor\DestructibleObjectEditor.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\ReorderableList.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Editor\GameManagerEditor.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\GroupDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\MinMaxDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\Editor\StartupInventoryEditor.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Editor\WorldManagerEditor.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Destructibles\Editor\LootContainerEditor.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Editor\ObjectReferenceFillerEditor.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\ReorderableDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\BHeaderDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GameUtils\Editor\LightEffectEditor.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\Editor\ItemGeneratorDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Containers\Editor\UI_ItemContainerInterfaceEditor.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\Editor\SurfaceManagerEditor.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Editor\EquipmentAnimationEditor.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\DatabasePropertyDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\GameUtils\Editor\OnCollisionEditor.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Spring\Editor\SpringDataDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Surfaces\Editor\SurfaceManagementWindow.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\Editor\ItemPropertyInfoDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\PreviewSpriteDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\EnableIfDrawer.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Utils\Editor\PanelEditor.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\DatabaseCategoryDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\Utility\AnimationUtils\Editor\AnimationOverrideClipsDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Editor\CopyPasteBase.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\TagDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Inventory\Editor\ItemManagementWindow.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\Editor\AddEquipmentWindow.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\levelManagerIngameEditor.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Items\Items\Editor\ItemPropertyDefinitionDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\InventoryContainerDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\_Core\Editor\EquipmentHelperEditor.cs" />
-    <Compile Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Scripts\Editor\CTI_ShaderGUI.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerInputManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\usingDevicesSystemEditor.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\SceneFieldDrawer.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_PresetEditorGUIUtility.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\simpleSliceSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\moveCameraToDeviceEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\vehicleCameraControllerEditor.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_MessageBox.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\ShowIfDrawer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerAbilitiesSystemEditor.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_InputWindow.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\ReorderableDrawer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\CollapseInspectorEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerOptionsEditorSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\weaponTransformInfoSystemEditor.cs" />
+    <Compile Include="Assets\UFPS\Base\Scripts\Core\Editor\vp_TimerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\ExtendedMenuEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\PreviewSpriteDrawer.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\cameraWaypointSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\CustomizableToolbar.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Editor\EditorGUICustom.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\tagLayerSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\bodyMountPointsSystemEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\waypointPlatformEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\footStepsManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\pickUpManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\vehicleInterfaceEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\weaponBuilderEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\createNewGenericModelToRideEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.UserInterface\Inventory\Containers\Editor\UI_ItemContainerInterfaceEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\ragdollActivatorEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\customCharacterControllerManagerEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\playerExperienceSystemEditor.cs" />
+    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Editor\EquipmentAnimationEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\createPhysicalObjectToGrabEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\healthEditor.cs" />
+    <Compile Include="Assets\Game Kit Controller\Scripts\Editor\decalManagerEditor.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Editor\SerializedPropertyExtensions.cs" />
-    <Compile Include="Assets\HQFPSTemplate\FiringRange\Models\ConiferBOTD\CTI Runtime Components\Scripts\Editor\CTI_DetailsEnum.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Examples\Editor\HQSceneSetupWindow.cs" />
     <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\SimpleMinMaxDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate\_Core\Attributes\Editor\DatabaseItemDrawer.cs" />
-    <Compile Include="Assets\HQFPSTemplate\Core\Scripts\HQFPSTemplate.Equipment\Components\Editor\GunVisualEffectsEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -808,141 +968,179 @@
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>E:\Unity\2021.3.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.TestRunner">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ProGrids.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core.Analytics">
-      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Services.Core.Environments">
-      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids">
-      <HintPath>Library\ScriptAssemblies\Unity.ProGrids.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{0E2D4E1A-0C6B-875B-C280-53814EE9D4DA}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{DDDC621E-BD3B-2F8E-8D4E-263AAC80FF02}</Project>
+      <Name>UnityEngine.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.TestRunner.csproj">
+      <Project>{53824AC7-E78D-9BCA-5A7F-263E429EC469}</Project>
+      <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
+      <Project>{9341C9F5-56C4-8ED3-8C14-26E902BB538F}</Project>
+      <Name>Unity.VisualScripting.Flow.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{E887C156-9CBB-7775-BDEF-167663A62EC8}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
+      <Project>{3BF7BA81-C476-7243-049A-49403985B58C}</Project>
+      <Name>Unity.2D.Tilemap.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{EC8A6B05-7F0F-8FE7-B93A-B239C77EE44D}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
+      <Project>{1CE84FF3-B49B-593A-1875-9082BD9EA42C}</Project>
+      <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
+      <Project>{8F5538DD-80B6-4B27-2115-798C74E0FEFE}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{33F4AB50-97BA-DFE4-909A-7E283E50D82C}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{C3308277-8C72-1826-7DA2-3EBC645CE5CE}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
+      <Project>{3465D0A0-220E-F263-E9C3-313D0B948AA9}</Project>
+      <Name>Unity.VisualScripting.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{57FB5187-E998-EFCD-5047-0D9C4B1334E4}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
+      <Project>{F998B092-0467-BBFB-63D2-A3BF8763114E}</Project>
+      <Name>Unity.VisualScripting.State.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="NeoFPS.Managers.csproj">
       <Project>{BB74EB94-708A-4DE2-4941-92F96EDC7880}</Project>
       <Name>NeoFPS.Managers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
+      <Project>{E83A8A7A-F37A-E753-C0E9-96B6B2E14530}</Project>
+      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{D19731BE-2FC3-654F-FA69-ECFBAC80E1E2}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AddOns.Editor.csproj">
+      <Project>{5C8AA0B2-AC00-7D73-F9B7-4B157951B357}</Project>
+      <Name>Unity.ProBuilder.AddOns.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.csproj">
+      <Project>{1D5522E1-CF47-E71B-5373-EAA517C7E0C8}</Project>
+      <Name>Unity.ProBuilder</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{286AECCF-CD68-F159-C676-FB1B71F9947E}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
+      <Project>{E7CEF630-C293-62F8-2A08-D4A08F1DE9D1}</Project>
+      <Name>Unity.ProBuilder.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
+      <Project>{7DFE357F-D0D7-322B-8376-BD8273395885}</Project>
+      <Name>Unity.Postprocessing.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{29C31C5A-6B5D-8A5E-1ADC-0C14E527FBB3}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{455EA1B5-2878-EDA2-AE7E-5B36AE762CA2}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{2A6367CA-B57C-A950-B8B2-636032EBAB08}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProGrids.Editor.csproj">
+      <Project>{3E98A129-6D21-3C5F-7605-3618D2A74CD6}</Project>
+      <Name>Unity.ProGrids.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="NeoFPS.csproj">
       <Project>{2884A845-8FA5-E76A-648A-CD4AFE615183}</Project>
       <Name>NeoFPS</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{6C0586E7-85C8-F5D8-5ECE-9F46BC486602}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{A76858E9-405A-AC67-57C8-F7E59D4725A9}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{76282111-900D-4A25-C59A-045348EFB7E1}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
+      <Project>{7D7E3CEB-BCAE-EBF4-D81F-595B143FABA5}</Project>
+      <Name>Unity.EditorCoroutines.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{F0BC427F-1424-32A1-80E5-3862F99AC2D0}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
+      <Project>{3B9ACFBB-EF95-8418-9C6F-A986ECE14E3C}</Project>
+      <Name>Unity.Services.Core.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
+      <Project>{9D4EE85E-4C11-DE13-916C-C772364B05E5}</Project>
+      <Name>Unity.Postprocessing.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
+      <Project>{77599DEC-699C-2293-2ADC-76D75006730E}</Project>
+      <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{4C8622F2-8628-B9E0-D462-F27E06F4A920}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="NeoSaveGames.Editor.csproj">
       <Project>{AB17DDFB-042F-7628-4668-FEE51E844838}</Project>
       <Name>NeoSaveGames.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
+      <Project>{8DE21807-F88E-0480-B792-1C5C4698ED5F}</Project>
+      <Name>Unity.Services.Core.Environments</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{8CCF0E84-E5B8-B3B1-83F2-E78FB6008C5C}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="NeoSaveGames.csproj">
       <Project>{AC08AF4F-C474-984C-3284-FE9F3A3BAAF2}</Project>
       <Name>NeoSaveGames</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProGrids.csproj">
+      <Project>{9E5DEACC-F5B4-6458-B033-FD2543A3B853}</Project>
+      <Name>Unity.ProGrids</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
+      <Project>{C980F1A2-55A7-DFA4-4452-2E6AA810380E}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.csproj">
+      <Project>{EC593460-C4BA-3B03-CF5C-2F5439BA4710}</Project>
+      <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

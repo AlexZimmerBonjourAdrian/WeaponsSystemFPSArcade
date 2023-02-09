@@ -115,8 +115,8 @@
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\EnvironmentElements\ContactLadder.cs" />
     <Compile Include="Assets\NeoFPS\Samples\Shared\UserInterface\MultiInputWidgets\MultiInputManualSaveEntry.cs" />
     <Compile Include="Assets\NeoFPS\Core\Editor\SubInspectorTitlebar.cs" />
-    <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Conditions\Editor\CompareIntsConditionDrawer.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Editor\MotionGraphStateEditor.cs" />
+    <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Conditions\Editor\CompareIntsConditionDrawer.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\States\Editor\SteepSlideStateEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Conditions\SphereLookaheadCondition.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Conditions\Editor\SphereCastConditionDrawer.cs" />
@@ -138,9 +138,9 @@
     <Compile Include="Assets\NeoFPS\Core\Inventory\IWieldable.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\States\Editor\MatchTransformStateEditor.cs" />
     <Compile Include="Assets\NeoFPS\Samples\Shared\UserInterface\MultiInputWidgets\Editor\MultiInputManualSaveEntryEditor.cs" />
-    <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Conditions\SwitchCondition.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\States\Editor\ConstantMoveStateEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Editor\MotionGraphBehaviourEditor.cs" />
+    <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Conditions\SwitchCondition.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Conditions\CompareSwitchesCondition.cs" />
     <Compile Include="Assets\NeoFPS\Core\Weapons\ModularFirearm\MuzzleEffect\Editor\BasicGameObjectMuzzleEffectEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\Hub\Editor\Pages\Wizards\ItemCreationWizards\Wizards\PlayerCharacters\PlayerCharacterControllerStep.cs" />
@@ -212,13 +212,13 @@
     <Compile Include="Assets\NeoFPS\Constants\Editor\FpsCrosshairPropertyDrawer.cs" />
     <Compile Include="Assets\NeoFPS\Core\Hub\Editor\Pages\Managers\ManagerPage_Pooling.cs" />
     <Compile Include="Assets\NeoFPS\Core\MovingPlatforms\Editor\WaypointMovingPlatformEditor.cs" />
-    <Compile Include="Assets\NeoFPS\Core\MovingPlatforms\SimpleMovingPlatform.cs" />
     <Compile Include="Assets\NeoFPS\Core\Hub\Editor\Pages\Wizards\ItemCreationWizards\Wizards\MeleeWeapons\MeleeWeaponViewModelStep.cs" />
+    <Compile Include="Assets\NeoFPS\Core\MovingPlatforms\SimpleMovingPlatform.cs" />
     <Compile Include="Assets\NeoFPS\Core\Weapons\ModularFirearm\Shooters\GuidedProjectiles\SimpleSteeringMotor.cs" />
     <Compile Include="Assets\NeoFPS\Core\Weapons\ModularFirearm\AmmoEffects\RicochetProjectileAmmoEffect.cs" />
-    <Compile Include="Assets\NeoFPS\Core\Weapons\ModularFirearm\Aimers\Editor\BaseAimerEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\Hub\Editor\Pages\Wizards\ItemCreationWizards\Wizards\InteractiveObjects\InteractiveObjectAudioVisualStep.cs" />
     <Compile Include="Assets\NeoFPS\Core\HUD\PlayerCharacterHudBase.cs" />
+    <Compile Include="Assets\NeoFPS\Core\Weapons\ModularFirearm\Aimers\Editor\BaseAimerEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\Settings\Editor\FpsKeyBindingsEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\Weapons\ModularFirearm\Ammo\RechargingAmmo.cs" />
     <Compile Include="Assets\NeoFPS\Core\Surfaces\SurfaceManager.cs" />
@@ -267,9 +267,9 @@
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\States\WadingMovementState.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Editor\MotionGraphEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Behaviours\Editor\BlockTriggerParameterBehaviourEditor.cs" />
-    <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Behaviours\TrackStepsBehaviour.cs" />
     <Compile Include="Assets\NeoFPS\Samples\Shared\UserInterface\Menus\InGameMenuBackground.cs" />
     <Compile Include="Assets\NeoFPS\Core\Editor\CustomSettings\SettingsIntermediate_Player.cs" />
+    <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Behaviours\TrackStepsBehaviour.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Parameters\VectorParameter.cs" />
     <Compile Include="Assets\NeoFPS\Core\Inventory\Examples\FpsInventoryDatabaseEntry.cs" />
     <Compile Include="Assets\NeoFPS\Samples\Shared\UserInterface\MultiInputWidgets\Editor\MultiInputSliderEditor.cs" />
@@ -489,8 +489,8 @@
     <Compile Include="Assets\NeoFPS\Core\Weapons\ModularFirearm\MuzzleEffect\Editor\RandomObjectMuzzleEffectEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\Utilities\Teleporter.cs" />
     <Compile Include="Assets\NeoFPS\Core\Weapons\ModularFirearm\Aimers\ScopedAimer.cs" />
-    <Compile Include="Assets\NeoFPS\Core\HUD\HudHitDamageCounters.cs" />
     <Compile Include="Assets\NeoFPS\Core\Weapons\ModularFirearm\ModularFirearmAmmoPickup.cs" />
+    <Compile Include="Assets\NeoFPS\Core\HUD\HudHitDamageCounters.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Conditions\TransformCondition.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\MotionGraphContainer.cs" />
     <Compile Include="Assets\NeoFPS\Core\Weapons\WieldableTools\Editor\WieldableToolEditor.cs" />
@@ -767,8 +767,8 @@
     <Compile Include="Assets\NeoFPS\Core\Weapons\ModularFirearm\AmmoEffects\SurfaceBulletPhysicsAmmoEffect.cs" />
     <Compile Include="Assets\NeoFPS\Core\Hub\Editor\Pages\DemoScenes\DemoScenesListEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\Weapons\ModularFirearm\ModularFirearmModeSwitcher.cs" />
-    <Compile Include="Assets\NeoFPS\Core\FirstPersonBody\Editor\FirstPersonCharacterAnimationProfileEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Conditions\DirectionCondition.cs" />
+    <Compile Include="Assets\NeoFPS\Core\FirstPersonBody\Editor\FirstPersonCharacterAnimationProfileEditor.cs" />
     <Compile Include="Assets\NeoFPS\Core\Utilities\Waitable.cs" />
     <Compile Include="Assets\NeoFPS\Core\Weapons\ModularFirearm\Aimers\00_IAimer.cs" />
     <Compile Include="Assets\NeoFPS\Core\Weapons\ModularFirearm\Ejectors\00_IEjector.cs" />
@@ -886,8 +886,8 @@
     <Compile Include="Assets\NeoFPS\Core\Utilities\Editor\RequiredObjectPropertyAttributeDrawer.cs" />
     <Compile Include="Assets\NeoFPS\Core\Inventory\InventoryEnums.cs" />
     <Compile Include="Assets\NeoFPS\Core\Hub\Editor\Pages\Wizards\ItemCreationWizards\Wizards\MeleeWeapons\MeleeWeaponExistingAnimatorStep.cs" />
-    <Compile Include="Assets\NeoFPS\Core\MotionGraphs\EnvironmentElements\BasicWaterZone.cs" />
     <Compile Include="Assets\NeoFPS\Core\Hub\Editor\Pages\Wizards\ItemCreationWizards\Wizards\ThrownWeapons\ThrownWeaponExistingAnimatorStep.cs" />
+    <Compile Include="Assets\NeoFPS\Core\MotionGraphs\EnvironmentElements\BasicWaterZone.cs" />
     <Compile Include="Assets\NeoFPS\Core\Camera\AdditiveEffects\ImpactHandlerKickTrigger.cs" />
     <Compile Include="Assets\NeoFPS\Core\Utilities\RequiredObjectPropertyAttribute.cs" />
     <Compile Include="Assets\NeoFPS\Core\Inventory\Examples\FpsInventoryItem.cs" />
@@ -1293,8 +1293,8 @@
     <Compile Include="Assets\NeoFPS\Core\Hub\Editor\Pages\QuickStarts\QuickstartReadme.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Parameters\SwitchParameter.cs" />
     <Compile Include="Assets\NeoFPS\Core\MotionGraphs\Behaviours\Editor\ConstrainCameraYawBehaviourEditor.cs" />
-    <Compile Include="Assets\NeoFPS\Core\Camera\AdditiveEffects\AdditiveKicker.cs" />
     <Compile Include="Assets\NeoFPS\Samples\Shared\UserInterface\Popups\SpinnerPopup.cs" />
+    <Compile Include="Assets\NeoFPS\Core\Camera\AdditiveEffects\AdditiveKicker.cs" />
     <Compile Include="Assets\NeoFPS\Core\Weapons\ModularFirearm\Shooters\02_IProjectile.cs" />
     <Compile Include="Assets\NeoFPS\Core\Hub\Editor\Pages\Wizards\ItemCreationWizards\Wizards\Pickups\AudioVisualFirearmSetup.cs" />
     <Compile Include="Assets\NeoFPS\Core\Damage\EventDamageHandler.cs" />
@@ -2039,17 +2039,12 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>E:\Unity\2021.3.5f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
+      <Project>{9D4EE85E-4C11-DE13-916C-C772364B05E5}</Project>
+      <Name>Unity.Postprocessing.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="NeoFPS.Managers.csproj">
       <Project>{BB74EB94-708A-4DE2-4941-92F96EDC7880}</Project>
       <Name>NeoFPS.Managers</Name>
@@ -2061,6 +2056,14 @@
     <ProjectReference Include="NeoSaveGames.Editor.csproj">
       <Project>{AB17DDFB-042F-7628-4668-FEE51E844838}</Project>
       <Name>NeoSaveGames.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{29C31C5A-6B5D-8A5E-1ADC-0C14E527FBB3}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{F0BC427F-1424-32A1-80E5-3862F99AC2D0}</Project>
+      <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

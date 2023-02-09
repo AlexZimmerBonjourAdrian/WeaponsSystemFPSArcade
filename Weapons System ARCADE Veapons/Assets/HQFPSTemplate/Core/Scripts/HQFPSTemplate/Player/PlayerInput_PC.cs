@@ -92,9 +92,12 @@ namespace HQFPSTemplate
 			bool alternateUseButtonHeld = Input.GetButton("AlternateUse");
 
 			// Use item
-			if (Input.GetButtonDown("UseEquipment"))
+			if (Input.GetButtonDown("Fire1"))
+			{ 
+				Debug.Log("Entra en El Use Equipament");
 				Player.UseItem.Try(false, alternateUseButtonHeld ? 1 : 0);
-			else if (Input.GetButton("UseEquipment"))
+			}
+			else if (Input.GetButton("Fire1"))
 				Player.UseItem.Try(true, alternateUseButtonHeld ? 1 : 0);
 
 			if (Input.GetButtonDown("ReloadEquipment"))

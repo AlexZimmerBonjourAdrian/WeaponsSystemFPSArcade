@@ -18,7 +18,11 @@ public class ammoPickup : pickupType
 		if (storePickupOnInventory) {
 			canPickCurrentObject = mainPickupObject.tryToPickUpObject ();
 
-			amountTaken = mainPickupObject.getLastinventoryAmountPicked ();
+			amount
+				
+				
+				
+				n = mainPickupObject.getLastinventoryAmountPicked ();
 		} else {
 			if (finderIsPlayer || finderIsCharacter) {
 				GameObject character = player;
